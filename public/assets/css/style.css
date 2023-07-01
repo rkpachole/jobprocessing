@@ -1,0 +1,580 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jost', sans-serif !important;
+    /* text-transform: capitalize; */
+}
+
+section {
+    padding-top: 22px;
+    padding-bottom: 40px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1 {
+    /* text-transform: capitalize; */
+}
+h3 {
+    font-size: 22px;
+}
+table {
+    /* border: 1px solid #aaaaaa; */
+    /* text-align: center; */
+    table-layout: fixed;
+    margin-bottom: 0 !important;
+}
+
+td {
+    font-size: 16px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #fff;
+}
+.logo {
+    font-family: 'Jost', sans-serif !important;
+}
+
+.main-btn {
+    background: linear-gradient(90deg, #0d6efd, #2111c5);
+    border: none;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    height: 40px;
+    margin-top: 15px;
+    padding: 3px 10px;
+    transition: all .4s ease-in-out;
+    border-radius: 25px 25px 0 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all 0.5s;
+    width: 100px;
+}
+
+.main-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.main-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.main-btn:hover span {
+    padding-right: 25px;
+}
+
+.main-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.form-label {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.table-head input::placeholder {
+    color: #fff !important;
+}
+
+
+nav.nav-main {
+    background: linear-gradient(99deg, #0d6efd, #2111c5);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(225 225 225 / 94%);
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(255 255 255);
+}
+
+.login-area h1 {
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.login-main {
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Jost', sans-serif;
+}
+
+.login-text {
+    padding: 25px 0;
+}
+
+.table-head input {
+    font-size: 13px;
+}
+
+/* 
+.table-head .form-control {
+    padding: 14px;
+    line-height: 20px;
+    background: linear-gradient(90deg, #0d6efd, #2111c5);
+    color: #fff !important;
+    border: none;
+    border-radius: 25px 25px 0 25px;
+    margin: 0 0 20px;
+} */
+
+.table-head i {
+    font-size: 50px;
+    color: #0d6efd;
+}
+
+.table-icon td i {
+    margin: 0 18px;
+}
+
+.modal-footer {
+    border-top: none !important;
+}
+
+.table-heading {
+    margin: 0 0 25px;
+}
+
+.back-btn {
+    text-align: right;
+}
+
+.pageback-btn {
+    background: linear-gradient(90deg, #0d6efd, #2111c5);
+    border: none;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    margin-top: 15px;
+    padding: 3px 50px;
+    transition: all .4s ease-in-out;
+    border-radius: 25px 25px 0 25px;
+}
+
+.pageback-btn:hover {
+    color: #fff;
+}
+
+tbody.table-icon tr td a {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* New Css */
+.new-login-btn {
+    background: linear-gradient(90deg, #0d6efd, #2111c5);
+    border: none;
+    color: #fff;
+    font-family: 'Jost', sans-serif !important;
+    font-size: 16px;
+    font-weight: 500 !important;
+    height: 40px;
+    margin-top: 15px;
+    padding: 3px 50px;
+    transition: all .4s ease-in-out;
+    border-radius: 25px 25px 0 25px !important;
+}
+
+.css-1gsv261 {
+    border-bottom: none !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    background-color: #fff !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-radius: 25px 25px 0 25px !important;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background: linear-gradient(90deg, #0d6efd, #2111c5) !important;
+}
+
+.css-lk7dpd-MuiPaper-root-MuiCard-root {
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px !important;
+}
+
+.reset-p {
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding: 25px;
+    border-radius: 4px;
+}
+
+/* Field table css */
+input.form-control {
+    border-radius: 20px 20px 0 20px;
+    /* text-transform: capitalize; */
+}
+
+.plus-icon a i {
+    background: linear-gradient(90deg, #0d6efd, #2111c5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.field-table a {
+    color: #000;
+}
+
+.Task-table a {
+    color: #000 !important;
+}
+
+.resetnew {
+    margin-top: 8%;
+}
+
+.resetbox {
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding: 25px;
+    border-radius: 4px;
+}
+
+.rightpopup {
+    float: right;
+    padding: 8px 0px;
+}
+
+.rightpopup a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000;
+}
+
+a.newAdd {
+    background: linear-gradient(99deg, #0d6efd, #2111c5);
+    color: #fff;
+    padding: 1px 12px;
+    border-radius: 4px;
+}
+
+h6.newAddUser {
+    background: linear-gradient(99deg, #0d6efd, #2111c5);
+    color: #fff;
+    padding: 6px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.table-recode a {
+    margin-right: 6px;
+    margin-top: 6px;
+}
+
+.table-recode a i {
+    background: linear-gradient(99deg, #0d6efd, #2111c5);
+    color: #fff;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.end-record {
+    margin-top: 30px;
+}
+
+.view-icon {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.view-icon a i {
+    background: linear-gradient(99deg, #0d6efd, #2111c5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.view-icon a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.MuiBox-root.css-uad9h9 {
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px !important;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.sendpass {
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding: 20px;
+}
+
+.admin-menu {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.admin-icon {
+    text-align: right;
+}
+
+.admin-icon a {
+    background: linear-gradient(99deg, #0d6efd, #2111c5);
+    color: #fff;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.admin-icon a i {
+    margin: 0 5px;
+}
+
+.new-edit {
+    background: none;
+    border: none;
+}
+
+.views-icons {
+    margin: 0 0 16px;
+}
+
+.views-icons a {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.views-icons a i {
+    background: linear-gradient(90deg, #0d6efd, #2111c5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+
+
+
+/* /// */
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.dropdown-menu {
+    padding: 6px;
+}
+
+/* /////////MENU */
+
+@media (min-width: 992px) {
+    .dropdown-menu .dropdown-toggle:after {
+        border-top: .3em solid transparent;
+        border-right: 0;
+        border-bottom: .3em solid transparent;
+        border-left: .3em solid;
+    }
+
+    .dropdown-menu .dropdown-menu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .dropdown-menu li {
+        position: relative;
+    }
+
+    .nav-item .submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+    }
+
+    .nav-item .submenu-left {
+        right: 100%;
+        left: auto;
+    }
+
+    .dropdown-menu>li:hover {
+        background-color: #f1f1f1
+    }
+
+    .dropdown-menu>li:hover>.submenu {
+        display: block;
+    }
+}
+
+
+
+.view-new {
+    display: flex;
+}
+
+.view-new h6 {
+    font-weight: 400;
+    color: gray;
+    margin: 3px 6px;
+    font-size: 16px;
+}
+
+.view-new h5 {
+    font-size: 18px;
+}
+
+
+
+/* ========= All screens css */
+
+.form-area {
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.main-btn a {
+    color: #fff;
+}
+
+.task-table table tr td a {
+    color: #000;
+}
+
+.form-area h6 {
+    font-size: 15px;
+}
+
+/* .fieldtasktable-area {
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+    padding: 15px;
+    height: 100%;
+} */
+
+table tr {
+    text-align: left;
+}
+
+/* .field-add-model h1 {
+    font-size: 22px;
+}
+​
+.field-add-model {
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    color: red;
+    font-size: 14px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+} */
+.modal-header h3 {
+    color: red;
+    font-size: 22px;
+    text-align: center;
+}
+.modal-header h2 {
+    color: green;
+    font-size: 22px;
+}
+​
+.form-area h2 {
+    text-align: center;
+    margin: 0 0 25px;
+}
+​
+button.loginsucc-btn {
+    background: blue;
+    border: none;
+    border-radius: 20px 20px 0 20px;
+    color: #fff;
+    padding: 6px;
+}
+.css-84mkcn-MuiPaper-root-MuiCard-root {
+    box-shadow: none !important;
+}
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px!important;
+    padding: 25px !important;
+}
+
+#dropdownMenuButton{
+    color: #f1f1f1;
+    padding: 8px;
+    font-family:'Jost', sans-serif;
+}
+
+
+.table td, .table th {
+    /* padding: 15px 0; */
+    vertical-align: top;
+    border-top: 1px solid #DEE2E6;
+}
+.table thead th {
+    vertical-align: baseline !important;
+    border-bottom: none !important;  
+}
+::placeholder {
+    font-size: 14px;
+}
+
+
+
+
+/* /* ????????//?///// *17march/ */
+
+
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #000;
+    background-color: #fff;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181B;
+    background-color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active,
+ .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+
+
